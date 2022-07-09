@@ -9,9 +9,19 @@ h2{
 }
 .site-header{
     background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
+.site-header-actions{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 .sitenav-list{
     list-style: none;
+    display: flex;
 }
 .sign-up{
     text-decoration: none;
@@ -20,9 +30,16 @@ h2{
 }
 
 
-.navigation{
+.hero{
     background-color: black;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-p{
+    width: 387px;
+height: 328px;
 }
 .hero-hr{
     width: 80px;
@@ -35,8 +52,10 @@ h2{
     background-color: orange;
 }
 .promo-aksiya{
+    display: flex;
     background-color: black;
     color: #fff;
+
 }
 .shopping{
     background-color: orange;
@@ -45,8 +64,6 @@ h2{
 }
 .python-book{
     font-family: roboto condensed;
-    height: 96px;
-    width: 339px;
     left: 0px;
     top: 43px;
 
@@ -75,6 +92,11 @@ text-transform: uppercase;
 }
 .feature{
     width: 340px;
+}
+.main-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
 .feature-icon-wrapper{
 
@@ -110,13 +132,16 @@ line-height: 120%
 }
 
 .promo-content{
-    width: 440;
+display: flex;
+
 }
 .promo-heading{
 font-size: 40px;
 line-height: 48px;
 }
-
+.promo-heading-text{
+    width: 440px;
+}
 
 .promo-highlight{
     color: #ff7500;
@@ -146,4 +171,16 @@ line-height: 48px;
     text-decoration: none;
     color: #252420;
     line-height: 19px;
+}
+.site-footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials{
+display: flex;
+justify-content: space-between;
+}
+.site-footer-bottom{
+display: flex;
 }
