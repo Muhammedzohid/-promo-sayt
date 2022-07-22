@@ -13,6 +13,17 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+.logo-link{
+transition: opacity 0.4s ease;
+}
+.logo-link:hover {
+    opacity: 0.8;
+
+}
+.logo-link:active {
+    opacity: 0.6;
+
+}
 .site-header-actions{
     display: flex;
     align-items: center;
@@ -69,13 +80,23 @@ height: 328px;
 
 }
 .sitenav-link {
-
+    color: #000000;
     font-size: 13px;
     font-weight: 500;
     line-height: 15px;
     letter-spacing: 1px;
     text-align: left;
     text-decoration: none;
+    transition: color 0.4s ease,
+    opacity 0.6s ease;
+}
+.sitenav-link:hover{
+    color: #ff7500;
+}
+.sitenav-link:active{
+    color: #ff7500;
+    text-decoration: underline;
+    opacity: 0.6;
 }
 .list-link {
 
@@ -85,10 +106,20 @@ font-style: normal;
 line-height: 15px;
 letter-spacing: 1px;
 text-transform: uppercase;
+
 }
 .link {
     text-decoration: none;
     color: black;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+.link:hover{
+    color: #ff7500;
+}
+.link:active{
+    color: #ff7500;
+opacity: 0.6;
 }
 .feature{
     width: 340px;
@@ -150,6 +181,13 @@ line-height: 48px;
     text-decoration: none;
     background-color: orange;
     color: #fff;
+    transition: opacity 0.4s ease;
+}
+.main-link:hover{
+    opacity: 0.8;
+}
+.main-link:active{
+    opacity: 0.6;
 }
 .promo-img{
     width: 440px;
@@ -184,3 +222,20 @@ justify-content: space-between;
 .site-footer-bottom{
 display: flex;
 }
+.site-footer-links:hover{
+color: #ff7500;
+}
+.site-footer-links:focus{
+
+    opacity:0.6 ;
+    }
+    .socials a:hover{
+        color: #ff7500;
+    }
+    .socials a:active{
+        color: #ff7500;
+        opacity: 0.6;
+    }
+    .socials a{
+        transition: ;
+    }
