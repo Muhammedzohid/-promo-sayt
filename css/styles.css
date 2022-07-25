@@ -7,6 +7,10 @@ body{
 h2{
     font-family: roboto condensed;
 }
+*:focus {
+outline: #ff7500 2px dotted;
+outline-offset: 3px;
+}
 .site-header{
     background-color: #fff;
 display: flex;
