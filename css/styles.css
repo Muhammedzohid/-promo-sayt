@@ -13,6 +13,8 @@ outline-offset: 3px;
 }
 .site-header{
     background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 18px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -47,6 +49,8 @@ transition: opacity 0.4s ease;
 
 .hero{
     background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
     color: #fff;
     display: flex;
     align-items: center;
@@ -70,7 +74,9 @@ height: 328px;
     display: flex;
     background-color: black;
     color: #fff;
-
+    padding-top: 120px;
+    padding-bottom: 160px;
+    border-radius: 12px;
 }
 .shopping{
     background-color: orange;
@@ -81,7 +87,7 @@ height: 328px;
     font-family: roboto condensed;
     left: 0px;
     top: 43px;
-
+    border-radius: 8px;
 }
 .sitenav-link {
     color: #000000;
@@ -103,7 +109,7 @@ height: 328px;
     opacity: 0.6;
 }
 .list-link {
-
+padding: 0px;
 font-size: 13px;
 font-weight: 500;
 font-style: normal;
@@ -125,8 +131,10 @@ text-transform: uppercase;
     color: #ff7500;
 opacity: 0.6;
 }
-.feature{
+.features{
     width: 340px;
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 .main-list{
     display: flex;
@@ -134,7 +142,10 @@ opacity: 0.6;
     justify-content: space-between;
 }
 .feature-icon-wrapper{
-
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
 width: 100px;
 height: 100px;
 background: rgba(255, 117, 0, 0.2);
@@ -182,10 +193,14 @@ line-height: 48px;
     color: #ff7500;
 }
 .main-link{
+    display:inline-block;
     text-decoration: none;
     background-color: orange;
     color: #fff;
     transition: opacity 0.4s ease;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 12px 24px;
 }
 .main-link:hover{
     opacity: 0.8;
@@ -200,6 +215,8 @@ line-height: 48px;
 }
 .site-footer{
     background-color: #f8f8f8;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 
