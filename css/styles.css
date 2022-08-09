@@ -39,6 +39,8 @@ transition: opacity 0.4s ease;
 .sitenav-list{
     list-style: none;
     display: flex;
+    margin: 0px;
+    margin-right: 32px;
 }
 .sign-up{
     text-decoration: none;
@@ -60,10 +62,17 @@ transition: opacity 0.4s ease;
     width: 387px;
 height: 328px;
 }
+.hero-text{
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
 .hero-hr{
     width: 80px;
     height: 3px;
     background-color: orange;
+    border: 0px;
+    margin: 0px;
+    margin-bottom: 40px;
 }
 .hero-hr-two{
     width: 80px;
@@ -88,8 +97,11 @@ height: 328px;
     left: 0px;
     top: 43px;
     border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 24px;
 }
 .sitenav-link {
+    padding: 0px;
     color: #000000;
     font-size: 13px;
     font-weight: 500;
@@ -109,7 +121,7 @@ height: 328px;
     opacity: 0.6;
 }
 .list-link {
-padding: 0px;
+margin-right: 32px;
 font-size: 13px;
 font-weight: 500;
 font-style: normal;
@@ -117,6 +129,9 @@ line-height: 15px;
 letter-spacing: 1px;
 text-transform: uppercase;
 
+}
+.list-link:last-child {
+    margin-right: 0px;
 }
 .link {
     text-decoration: none;
@@ -132,7 +147,7 @@ text-transform: uppercase;
 opacity: 0.6;
 }
 .features{
-    width: 340px;
+
     padding-top: 210px;
     padding-bottom: 210px;
 }
@@ -140,8 +155,21 @@ opacity: 0.6;
     display: flex;
     list-style: none;
     justify-content: space-between;
+    margin: 0px;
+
+
+
+}
+.feature{
+
+    margin-right: 40px;
+}
+.feature:last-child{
+    margin-right: 0px;
 }
 .feature-icon-wrapper{
+width: 340px;
+margin: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -149,11 +177,14 @@ border-radius: 50%;
 width: 100px;
 height: 100px;
 background: rgba(255, 117, 0, 0.2);
+height: 113px;
+margin-right: 40px;
 }
 .feature-heading{
     width: 170px;
     height: 29px;
-
+    margin-top: 0px;
+    margin-bottom: 72px;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -166,6 +197,8 @@ background: rgba(255, 117, 0, 0.2);
 
 }
 .feature-title{
+margin-top: 0px;
+margin-bottom: 72px;
 width: 435px;
 height: 172px;
 left: 170px;
@@ -184,9 +217,21 @@ display: flex;
 .promo-heading{
 font-size: 40px;
 line-height: 48px;
+margin-top: 0px;
+margin-bottom: 24px;
 }
 .promo-heading-text{
     width: 440px;
+}
+.content-text{
+margin-top: 0px;
+margin-bottom: 12px;
+}
+.content-text:last-child{
+    margin-bottom: 0px;
+}
+.promo-info-wrapper{
+margin-bottom: 24px;
 }
 
 .promo-highlight{
@@ -224,21 +269,33 @@ line-height: 48px;
     width: 1100px;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+    margin-top: 44px;
+    margin-bottom: 64px;
 }
 .site-footer-links{
     list-style: none;
     text-decoration: none;
     color: #252420;
     line-height: 19px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+}
+.site-footer-links:last-child{
+    margin-right: 0;
 }
 .site-footer-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.socials{
+.socials a{
 display: flex;
 justify-content: space-between;
+display: block;
+}
+.socials svg{
+    display: block;
 }
 .site-footer-bottom{
 display: flex;
@@ -258,5 +315,13 @@ color: #ff7500;
         opacity: 0.6;
     }
     .socials a{
-        transition: ;
+        color: #000000;
+    }
+    .socials li{
+        list-style: none;
+        margin: 0px;
+        margin-right: 16px;
+    }
+    .socials li:last-child{
+        margin-right: 0px;
     }
